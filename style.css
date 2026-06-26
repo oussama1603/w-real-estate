@@ -1,0 +1,50 @@
+:root {
+  --primary: #112B5C;
+  --primary-dark: #183A73;
+  --primary-light: #2E5FA8;
+
+  --background: #FFFFFF;
+  --surface: #EBEDF0;
+
+  --text: #080809;
+  --text-secondary: #4C4B4A;
+  --muted: #94979C;
+
+  --border: #D1CECE;
+  --gray: #BEB8B3;
+
+  --hero-bg: #EAF2FF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slide-bar{
+  color: #183A73;
+  background-image: -moz-element(bac);
+  font-weight: bold;
+  font-family: 'Roboto';
+  align-items: center;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  background-color: #BED2EE;
+
+}
+.buttons{
+  margin-left: 10px;
+}
+.slide-bar-btn{
+  color: #183A73;
+  background: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+}
