@@ -16,6 +16,7 @@
   --hero-bg: #EAF2FF;
   --font : "Boldonse", system-ui;
 }
+
 .boldonse-regular {
   font-family: "Boldonse", system-ui;
   font-weight: 400;
@@ -71,6 +72,9 @@ header{
   cursor: pointer;
   transition: 0.5s ease;
 }
+i{
+  width: 40px;
+}
 
 .list-btn{
   border-radius: 10px;
@@ -95,4 +99,9 @@ header{
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.text-container{
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
 }
