@@ -22,26 +22,26 @@
   box-sizing: border-box;
 }
 .slide-bar{
-  color: #183A73;
+  color: var(--primary);
   background-image: -moz-element(bac);
   font-weight: bold;
-  font-family: 'Roboto';
+  font-family: "Manrope", sans-serif;
   align-items: center;
   margin: 0px;
   width: 100%;
   display: flex;
   justify-content: space-around;
   height: 80px;
-  background-color: #BED2EE;
+  background-color: var(--muted);
 
 }
 .buttons{
   margin-left: 10px;
 }
 .slide-bar-btn{
-  color: #183A73;
+  color: var(--primary);
   background: none;
-  font-family: 'Roboto';
+  font-family: 'Manrope', sans-serif;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 30px;
