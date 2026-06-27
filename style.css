@@ -14,12 +14,22 @@
   --gray: #BEB8B3;
 
   --hero-bg: #EAF2FF;
+  --font : "Boldonse", system-ui;
 }
+.boldonse-regular {
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+header{
+  
 }
 .slide-bar{
   color: var(--primary);
@@ -32,8 +42,21 @@
   display: flex;
   justify-content: space-around;
   height: 80px;
-  background-color: var(--muted);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari */
+  border-radius: 15px;
+  padding: 20px;
 
+
+}
+.slogan{
+  margin-left: 10px;
+}
+.title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .buttons{
   margin-left: 10px;
@@ -41,10 +64,35 @@
 .slide-bar-btn{
   color: var(--primary);
   background: none;
-  font-family: 'Manrope', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
+  font-family: var(--font);
   padding: 10px 30px;
   border: none;
   border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.list-btn{
+  border-radius: 10px;
+  color: white;
+  background-color: var(--primary-dark);
+  border: none;
+  font-size: 12px;
+  font-family: var(--font);
+  margin-left: 40px;
+  padding: 12px 30px;
+  transition: 0.5s ease;
+  
+}
+.list-btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: var(--primary-dark);
+}
+.hero{
+  background-image: url(background-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
