@@ -109,5 +109,6 @@ i{
 .first-text{
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
   color: var(--primary-light);
+  font-weight: bold;
 
 }
