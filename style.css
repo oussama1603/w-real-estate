@@ -106,7 +106,7 @@ i{
   align-items: center;
   justify-content: space-around;
 }
-.first-text{
+.first-text,second-text{
   font-family: Verdana, Geneva, Tahoma, sans-serif ;
   color: var(--primary-light);
   font-weight: bold;
